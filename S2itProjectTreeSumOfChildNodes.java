@@ -13,7 +13,7 @@ public class S2itProjectTreeSumOfChildNodes {
 	Queue<S2itProjectTreeNode> nodeQueue = new LinkedList<>();
 	nodeQueue.offer(rootNode);
 	
-        int sumOfNodes = 0;
+	int sumOfNodes = 0;
 	while (!nodeQueue.isEmpty()) {
             
             S2itProjectTreeNode node = nodeQueue.poll();
